@@ -10,8 +10,7 @@ project "template"
 
 	filter { "configurations:debug" }
 		symbols "On"
-		defines { "DEBUG=1" }
+		defines { "DEBUG" }
 
 	filter { "configurations:release" }
 		optimize "On"
-		defines { "DEBUG=0" }
