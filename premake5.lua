@@ -4,7 +4,7 @@ workspace "template"
 project "template"
 	kind "ConsoleApp"
 	language "C++"
-	cppdialect "C++17"
+	cppdialect "C++20"
 
 	files { "src/**.hpp", "src/**.cpp" }
 
