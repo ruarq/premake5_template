@@ -1,6 +1,6 @@
 # project
-bin
-obj
+/bin
+/obj
 
 # vscode
 .vscode

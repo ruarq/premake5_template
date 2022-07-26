@@ -2,13 +2,13 @@
 
 if [[ "$OSTYPE" == "linux-gnu"* || "$OSTYPE" == "freebsd"* ]]
 then
-	.premake/linux ${@:1}
+	.premake/bin/linux ${@:1}
 elif [[ "$OSTYPE" == "darwin"* ]]
 then
-	.premake/macos ${@:1}
+	.premake/bin/macos ${@:1}
 elif [[ "$OSTYPE" == "cygwin" || "$OSTYPE" == "msys" || "$OSTYPE" == "win32" ]]
 then
-	.premake/win ${@:1}
+	.premake/bin/win ${@:1}
 else
 	echo "Unsupported operating system."
 fi
