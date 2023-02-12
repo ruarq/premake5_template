@@ -2,6 +2,7 @@
 bin
 obj
 compile_commands.json
+.cache
 
 # vscode
 .vscode
