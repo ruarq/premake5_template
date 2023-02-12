@@ -1,6 +1,7 @@
 # project
 bin
 obj
+compile_commands.json
 
 # vscode
 .vscode
